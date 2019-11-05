@@ -1,24 +1,24 @@
-#
+# ![logo](https://user-images.githubusercontent.com/25957174/68218912-0faa6480-0020-11ea-9284-84f2bd761d4f.png)
 
-# Geng_2019
+# Geng_2019  
 This repository contains the code for analysis of Hi-C data of the paper:
 ## "Three-dimensional Genome Structure Reveals Distinct Chromatin Signatures of Mouse Female Germline Stem Cells during Development"
 Geng G. Tian, Xinyan Zhao, Wenhai Xie, Xiaoyong Li, Changliang Hou, Yinjuan Wang, Lijuan Wang, Xiaodong Zhao, Hua Li, Jing Li, and Ji Wu
 ### Installation
-#### 1. Requirement
-##### \* HiC-Pro:https://github.com/nservant/HiC-Pro
-##### \* PSYCHIC:https://github.com/dhkron/PSYCHIC
-##### \* R>3.4.0
-##### \* perl
-##### \* python
-##### \* HiTC
-##### \* Unix tools - cut, sed, pushd, popd (typically installed by default)
-##### \* matrix2insulation.pl: https://github.com/dekkerlab/crane-nature-2015
-##### \* samtools (>1.1）
-##### \* bedtools
+#### 1. Requirement  
+* HiC-Pro:https://github.com/nservant/HiC-Pro  
+* PSYCHIC:https://github.com/dhkron/PSYCHIC  
+* R>3.4.0  
+* perl  
+* python  
+* HiTC  
+* Unix tools - cut, sed, pushd, popd (typically installed by default)  
+* matrix2insulation.pl: https://github.com/dekkerlab/crane-nature-2015  
+* samtools (>1.1）  
+* bedtools
 
-### Input matrix
-#### input_matrix should be in tab-delimitered file, which are came from the output of HiC-Pro. The contact maps are then available in the hic_results/matrix folder. Raw contact maps are in the raw folder and normalized contact maps in the iced folder. A contact map is defined by : A list of genomic intervals related to the specified resolution (BED format). A matrix, stored as standard triplet sparse format (i.e. list format).
+### Input matrix  
+input_matrix should be in tab-delimitered file, which are came from the output of HiC-Pro. The contact maps are then available in the hic_results/matrix folder. Raw contact maps are in the raw folder and normalized contact maps in the iced folder. A contact map is defined by : A list of genomic intervals related to the specified resolution (BED format). A matrix, stored as standard triplet sparse format (i.e. list format).
 
 ### Session Info
 ```R
