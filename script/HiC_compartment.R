@@ -1,7 +1,7 @@
 #compartment A/B#
 #Rscript_mean#
 library("HiTC")
-name = list.files(pattern=".matrix")##批量读取符合某种匹配的数据
+name = list.files(pattern=".matrix")
 n = length(name)
 pas = function(x){
   a = paste(x[,1],x[,2],sep = ":")
