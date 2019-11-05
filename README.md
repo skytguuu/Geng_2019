@@ -1,4 +1,4 @@
-# <img width="400" height="110" src="https://user-images.githubusercontent.com/25957174/68218912-0faa6480-0020-11ea-9284-84f2bd761d4f.png"/>
+# <img width="400" height="120" src="https://user-images.githubusercontent.com/25957174/68218912-0faa6480-0020-11ea-9284-84f2bd761d4f.png"/>
 
 # Geng_2019  
 This repository contains the code for analysis of Hi-C data of the paper:
@@ -72,5 +72,5 @@ loaded via a namespace (and not attached):
 [41] lazyeval_0.2.1              munsell_0.5.0
 [43] crayon_1.3.4
  ```
-### Bugs and Feedback
-#### For bugs, questions and discussions please use the Github Issues or send me the E-mail: gengtian@sjtu.edu.cn.
+### Bugs and Feedback  
+For bugs, questions and discussions please use the Github Issues or send me the E-mail: gengtian@sjtu.edu.cn.
