@@ -1,4 +1,4 @@
-# <img width="410" height="100" src="https://user-images.githubusercontent.com/25957174/68218912-0faa6480-0020-11ea-9284-84f2bd761d4f.png"/>
+# <img width="400" height="90" src="https://user-images.githubusercontent.com/25957174/68218912-0faa6480-0020-11ea-9284-84f2bd761d4f.png"/>
 
 # Geng_2019  
 This repository contains the code for analysis of Hi-C data of the paper:
