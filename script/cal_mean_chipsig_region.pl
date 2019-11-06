@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 #unique boundary identification 
-$my_region = @ARGV[0];#输入region文件
+$my_region = @ARGV[0];#genome_region
 $my_chip = @ARGV[1];
-$my_output = @ARGV[2];#输出output结果
+$my_output = @ARGV[2];
 open (REG, "$my_region");
 open (CHIP, "$my_chip");
 open (R,">$my_output");
